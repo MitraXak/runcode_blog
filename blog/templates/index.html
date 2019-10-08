@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>helloBlog</title>
-	{% static %}
-	<link rel="stylesheet" href="{% static 'style.scss' %}">
-	<link rel="stylesheet" href="{% static 'menu.scss' %}">
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'style.css' %}">
+	<link rel="stylesheet" href="{% static 'menu.css' %}">
 </head>
 <body>
 		{% block maketContent %}
