@@ -25,7 +25,7 @@ SECRET_KEY = '!br1l1!n&94ecu=aha$i+x(jjx))g-zpa5ekoqhr$*x#v6_opo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','.runcode.com']
+ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com']
 
 
 # Application definition
