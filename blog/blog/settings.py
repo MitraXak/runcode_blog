@@ -127,7 +127,7 @@ STATICFILES_FINDERS = [
 ]
 
 SASS_PRECISION  =  8
-STATIC_URL = '/stati/'
+STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join('/static/') #текущее расположение статических файлов
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "/static/"),
