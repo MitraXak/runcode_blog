@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>helloBlog</title>
-	{% load sass_tags %}
-	<link rel="stylesheet" href="{% sass_src 'style.scss' %}">
-	<link rel="stylesheet" href="{% sass_src 'menu.scss' %}">
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'style.css' %}">
+	<link rel="stylesheet" href="{% static 'menu.css' %}">
 </head>
 <body>
 		{% block maketContent %}
