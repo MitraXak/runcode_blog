@@ -3,5 +3,5 @@ from django.urls import path, include
 from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('http://mitraxak.pythonanywhere.com/', views.home),
+    path('', views.home),
 ]
