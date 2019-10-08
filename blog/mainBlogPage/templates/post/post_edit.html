@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+{% block maketContent %}
+<h1>New Post</h1>
+<form method="POST">
+	{% csrf_token %}
+	{{ form.as_p }} <!--отображаю форму-->
+	<button type="submit" class="save">Save</button>
+</form>
+{% endblock %}

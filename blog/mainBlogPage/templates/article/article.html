@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+{% block head %}
+	<meta charset="UTF-8">
+	<title>helloBlog</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% url 'style.css' %}">
+	<link rel="stylesheet" href="{% url 'menu.css' %}">
+{% endblock %}
+{% block maketContent %}
+	<div class="position">
+		<header>
+			<nav class="upMenu">
+				{% include "menu.html" %}
+			</nav>			
+		</header>
+		<main>
+				<div class="maket">
+		</main>
+		<footer> footer </footer>
+	</div>
+{% endblock %}

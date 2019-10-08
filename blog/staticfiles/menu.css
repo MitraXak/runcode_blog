@@ -1,0 +1,23 @@
+.upMenu {
+  max-width: 100%;
+  background: black; }
+  .upMenu ul {
+    display: flex;
+    flex-direction: row; }
+    .upMenu ul li {
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      list-style-type: none; }
+      .upMenu ul li a {
+        text-decoration: none;
+        font-family: Century Gothic;
+        color: white; }
+
+.lowerMenu {
+  display: flex;
+  justify-content: center; }
+  .lowerMenu dl {
+    max-width: 700px; }
+    .lowerMenu dl dt {
+      font-size: 3rem; }
+
+/*# sourceMappingURL=menu.css.map */

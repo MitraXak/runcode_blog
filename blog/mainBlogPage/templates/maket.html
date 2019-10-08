@@ -1,0 +1,28 @@
+{% extends 'index.html' %}
+{% block maketContent %}
+	<div class="position">
+		<header>
+			<nav class="upMenu">
+				{% include "menu.html" %}
+			</nav>
+			
+			<nav class="lowerMenu">
+				{% include "lowerMenu.html" 	%}
+			</nav>
+			
+		</header>
+		<main>
+				<div class="maket">
+					<content>
+						<article>
+
+						</article>
+					</content>
+					<sidebar>
+						<h2>Sidebar</h2>
+					</sidebar>
+				</div>
+		</main>
+		<footer> footer </footer>
+	</div>
+{% endblock %}
