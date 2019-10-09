@@ -127,5 +127,5 @@ STATICFILES_FINDERS = [
 ]
 
 SASS_PRECISION  =  8
-STATIC_URL = 'mitraxak.pythonanywhere.com/blog/staticfiles/'
-STATIC_ROOT = os.path.join('mitraxak.pythonanywhere.com/blog/staticfiles/') #текущее расположение статических файлов
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join('static') #текущее расположение статических файлов
