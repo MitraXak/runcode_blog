@@ -1,0 +1,37 @@
+$fontFamilyMenu: Century Gothic;
+.upMenu{
+	max-width: 100%;
+	background: black;
+
+	ul
+	{
+		display: flex;
+		flex-direction: row;
+
+		li
+		{
+			padding: 0.5rem 1rem 0.5rem 1rem;
+			list-style-type: none;
+			a
+			{
+				text-decoration: none;
+				font-family: $fontFamilyMenu;
+				color: white;
+			}
+		}
+	}
+}
+
+.lowerMenu
+{
+	display: flex;
+	justify-content: center;
+	dl
+	{
+		max-width: 700px;
+		dt
+		{
+			font-size: 3rem;
+		}
+	}	
+}
