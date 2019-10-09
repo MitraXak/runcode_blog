@@ -4,34 +4,4 @@ from django.db import migrations, models
 import django.utils.timezone
 
 
-class Migration(migrations.Migration):
 
-    dependencies = [
-        ('mainBlogPage', '0001_initial'),
-    ]
-
-    operations = [
-        migrations.RemoveField(
-            model_name='article',
-            name='author',
-        ),
-        migrations.RemoveField(
-            model_name='article',
-            name='date',
-        ),
-        migrations.AddField(
-            model_name='article',
-            name='create_date',
-            field=models.DateTimeField(default=django.utils.timezone.now),
-        ),
-        migrations.AddField(
-            model_name='article',
-            name='publish_date',
-            field=models.DateTimeField(blank=True, null=True),
-        ),
-        migrations.AlterField(
-            model_name='article',
-            name='title',
-            field=models.CharField(max_length=200),
-        ),
-    ]
